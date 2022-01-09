@@ -9,10 +9,10 @@ public class TestBot {
     public static void main(String[] args) {
         try {
             teste = new Robot();
+            clicker(1000, 950);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        clicker(1000, 950);
     }
 
     public static void clicker(int x, int y){
